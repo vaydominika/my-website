@@ -1,0 +1,22 @@
+.skill-description {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.horizontal-divider {
+    height: 0.01rem;
+    width: 35rem;
+    background-color: white;
+    margin: 2rem auto;
+}
+
+.thicker-divider {
+    z-index: 9999;
+    height: 0.2rem;
+    width: 8rem;
+    background-color: white;
+    margin: 2rem auto;
+    transform: translateY(-1px);
+  }
+    

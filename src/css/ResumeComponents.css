@@ -1,0 +1,19 @@
+.resume-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .resume-column {
+    width: 20%;
+    box-sizing: border-box;
+  }
+  
+  .vertical-divider {
+    width: 0.01rem;
+    background-color: white;
+    height: 40vh;
+    margin-bottom: 10vh;
+  }

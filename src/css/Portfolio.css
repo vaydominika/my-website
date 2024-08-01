@@ -1,0 +1,22 @@
+.portfolio {
+    text-align: center;
+  }
+  
+  .gallery {
+    margin: 1rem;
+    display: grid;
+    gap: 1vh;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .gallery-item {
+    box-sizing: border-box;
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    display: inline;
+    box-shadow: 0px 0px 10px 1px;
+  }
+  

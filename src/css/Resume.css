@@ -1,0 +1,25 @@
+.container-left {
+    text-align: center;
+}
+
+.badge {
+    border-radius: 60px !important;
+    background-color: white !important;
+    color: #FF8DC7 !important;
+}
+
+.location {
+    font-style: italic;
+}
+
+.task {
+    margin-bottom: 4rem;
+    font-style: italic;
+}
+
+.divider {
+    height: 0.01rem;
+    width: 10rem;
+    background-color: white;
+    margin: 1rem auto;
+}

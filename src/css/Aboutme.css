@@ -1,0 +1,22 @@
+.card {
+    width: 40rem !important;
+    border-radius: 60px !important;
+    background-color: transparent !important;
+    border: 2px solid white !important;
+    color: white !important;
+    align-items: center !important;
+    padding: 20px !important;
+}
+
+.card-link {
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.card-link:hover {
+    color: #fcebe5 !important;
+}
+
+.aboutme {
+    margin: 20vh 0vw 0vh 15vw !important
+}

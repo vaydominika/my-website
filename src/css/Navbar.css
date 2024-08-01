@@ -1,0 +1,19 @@
+.nav {
+    padding: 20px !important;
+    font-size: large;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    background-color: #FF8DC7;
+    width: 100vw;
+    border-radius: 0px 10px 0px 10px;
+    box-shadow: 0px 0px 10px #ff66b5;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link.active {
+    color: #fcebe5 !important;
+}
