@@ -21,14 +21,19 @@ const Aboutme = () => {
           </p>
         </div>
         <div className="card-body">
-          <a href="#" className="card-link">
+          <a
+            href="https://www.instagram.com/seprunyel_/"
+            className="card-link"
+            target="_blank"
+          >
             Instagram
           </a>
-          <a href="#" className="card-link">
+          <a
+            href="https://github.com/vaydominika"
+            className="card-link"
+            target="_blank"
+          >
             GitHub
-          </a>
-          <a href="#" className="card-link">
-            Discord
           </a>
         </div>
       </div>
