@@ -29,15 +29,19 @@ function App() {
       <section id="about-me" className="page-section-static">
         <Aboutme />
       </section>
+
       <section id="skills" className="page-section">
         <SkillsComponents />
       </section>
+
       <section id="resume" className="page-section">
         <ResumeComponents />
       </section>
+
       <section id="portfolio" className="page-section">
         <Portfolio />
       </section>
+
       <section id="work-together" className="page-section"></section>
 
       <ScrollToTopButton />
