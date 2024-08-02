@@ -1,23 +1,28 @@
 import { useEffect } from "react";
 
-export const useScrollWithOffset = (activeLink, offset) => {
+export const useScrollEffects = () => {
   useEffect(() => {
-    const handleScroll = (event) => {
-      const element = document.querySelector(activeLink);
-      if (element) {
-        const elementPosition =
-          element.getBoundingClientRect().top + window.scrollY;
-        const offsetPosition = elementPosition + offset;
+    const handleScroll = () => {
+      const sections = document.querySelectorAll(".page-section");
+      const viewportHeight = window.innerHeight;
 
-        window.scrollTo({
-          top: offsetPosition,
-          behavior: "smooth",
-        });
-      }
+      sections.forEach((section) => {
+        const rect = section.getBoundingClientRect();
+        const sectionTop = rect.top + window.scrollY;
+        const sectionHeight = rect.height;
+        const threshold = sectionTop + sectionHeight * 0.8;
+
+        if (window.scrollY + viewportHeight > threshold) {
+          if (!section.classList.contains("visible")) {
+            section.classList.add("visible");
+          }
+        }
+      });
     };
 
+    window.addEventListener("scroll", handleScroll);
     handleScroll();
 
-    return () => {};
-  }, [activeLink, offset]);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 };
