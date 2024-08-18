@@ -1,11 +1,16 @@
 .container-left {
     text-align: center;
+    color: white;
+}
+
+.container-left p {
+    font-size: 1.1rem;
 }
 
 .badge {
     border-radius: 60px !important;
     background-color: white !important;
-    color: #FF8DC7 !important;
+    color: #FB6F92 !important;
 }
 
 .location {

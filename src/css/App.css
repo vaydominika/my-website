@@ -1,13 +1,16 @@
 body {
-  background-color: #FF8DC7 !important;
+  background-image: url("../svg/background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
   
 .page-section {
   width: 99vw;
-  min-height: 45vh;
+  min-height: 60vh;
   opacity: 0;
   transform: translateY(200px);
-  transition: opacity 600ms ease, transform 600ms ease;
+  transition: opacity 800ms ease, transform 800ms ease;
+  padding-top: 30vh;
 }
 
 .page-section.visible {
@@ -16,6 +19,6 @@ body {
 }
 
 .page-section-static {
+  min-height: 30vh;
   width: 99vw;
-  min-height: 45vh;
 }

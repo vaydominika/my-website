@@ -1,22 +1,54 @@
+.container {
+    margin-top: 14rem;
+}
+
+.row {
+    justify-content: center !important;
+}
+
 .card {
-    width: 40rem !important;
+    width: 100% !important;
+    max-width: 26vw !important;
     border-radius: 60px !important;
-    background-color: transparent !important;
-    border: 2px solid white !important;
-    color: white !important;
-    align-items: center !important;
-    padding: 20px !important;
+    background-color: white !important;
+    border: 0.8rem solid !important;
+    color: #FB6F92 !important;
+    padding: 4rem 2rem 2rem 2rem !important;
+    border-top-color: white !important;
+    border-left-color: white !important;
+    border-right-color: aliceblue !important;
+    border-bottom-color: aliceblue !important;
+    text-align: center;
+    height: 50vh !important;
+    margin-right: 6rem !important;
 }
 
 .card-link {
-    text-decoration: none !important;
-    color: white !important;
+    color: #FB6F92 !important;
+    font-weight: bold;
 }
 
 .card-link:hover {
-    color: #fcebe5 !important;
+    color: #FFC2D1 !important;
 }
 
-.aboutme {
-    margin: 20vh 0vw 0vh 15vw !important
+.image-card {
+    width: 100% !important;
+    max-width: 26vw !important;
+    border-radius: 60px !important;
+    border: 0.8rem solid !important;
+    color: #FB6F92 !important;
+    padding: 0 !important;
+    height: 50vh !important;
+    border-top-color: white !important;
+    border-left-color: white !important;
+    border-right-color: aliceblue !important;
+    border-bottom-color: aliceblue !important;
+    overflow: hidden;
+}
+
+.about-me-image {
+    height: 100% !important;
+    width: 100% !important;
+    object-fit: cover !important;
 }

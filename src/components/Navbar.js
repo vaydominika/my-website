@@ -1,4 +1,3 @@
-// Navbar.js
 import React, { useState } from "react";
 import "../css/Navbar.css";
 
@@ -29,8 +28,11 @@ function Navbar() {
   };
 
   return (
-    <>
-      <ul className="nav nav-underline">
+    <nav className="nav">
+      <div className="nav-logo">
+        <span>Vay Dominika</span>
+      </div>
+      <ul className="nav-links">
         {navItems.map((item) => (
           <li className="nav-item" key={item.name}>
             <a
@@ -50,7 +52,7 @@ function Navbar() {
           </li>
         ))}
       </ul>
-    </>
+    </nav>
   );
 }
 
