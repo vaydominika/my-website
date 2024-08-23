@@ -10,7 +10,7 @@ export const useScrollEffects = () => {
         const rect = section.getBoundingClientRect();
         const sectionTop = rect.top + window.scrollY;
         const sectionHeight = rect.height;
-        const threshold = sectionTop + sectionHeight * 0.8;
+        const threshold = sectionTop + sectionHeight * 0.9;
 
         if (window.scrollY + viewportHeight > threshold) {
           if (!section.classList.contains("visible")) {

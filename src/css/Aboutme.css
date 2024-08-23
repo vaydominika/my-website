@@ -8,19 +8,16 @@
 
 .card {
     width: 100% !important;
-    max-width: 26vw !important;
-    border-radius: 60px !important;
-    background-color: white !important;
-    border: 0.8rem solid !important;
+    max-width: 60vw !important;
+    background-color: transparent !important;
     color: #FB6F92 !important;
-    padding: 4rem 2rem 2rem 2rem !important;
-    border-top-color: white !important;
-    border-left-color: white !important;
-    border-right-color: aliceblue !important;
-    border-bottom-color: aliceblue !important;
+    padding: 9rem 4rem 4rem 4rem !important;
     text-align: center;
-    height: 50vh !important;
-    margin-right: 6rem !important;
+    height: 60vh !important;
+    background-image: url("../svg/card.svg") !important;
+    border: none !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
 }
 
 .card-link {
@@ -34,17 +31,15 @@
 
 .image-card {
     width: 100% !important;
-    max-width: 26vw !important;
+    max-width: 60vw !important;
     border-radius: 60px !important;
-    border: 0.8rem solid !important;
-    color: #FB6F92 !important;
     padding: 0 !important;
-    height: 50vh !important;
-    border-top-color: white !important;
-    border-left-color: white !important;
-    border-right-color: aliceblue !important;
-    border-bottom-color: aliceblue !important;
+    height: 60vh !important;
     overflow: hidden;
+    background-image: url("../svg/imgcard.svg") !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    background-position: center;
 }
 
 .about-me-image {

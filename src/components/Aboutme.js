@@ -44,9 +44,7 @@ const Aboutme = () => {
           </div>
         </div>
         <div className="col-md-6">
-          <div className="image-card">
-            <img src={meImage} className="about-me-image" alt="Me" />
-          </div>
+          <div className="image-card"></div>
         </div>
       </div>
     </div>
